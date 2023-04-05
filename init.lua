@@ -1,0 +1,3 @@
+-- main lua
+
+require('manager')
