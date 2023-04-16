@@ -21,7 +21,7 @@ require('lspkind').init({
     -- default: {}
     symbol_map = {
         Text = "",
-        Method = "",
+        Method = "🔑",
         Function = "",
         Constructor = "",
         Field = "ﰠ",
@@ -33,8 +33,8 @@ require('lspkind').init({
         Unit = "塞",
         Value = "",
         Enum = "",
-        Keyword = "",
-        Snippet = "",
+        Keyword = "🔭",
+        Snippet = "🚦",
         Color = "",
         File = "",
         Reference = "",

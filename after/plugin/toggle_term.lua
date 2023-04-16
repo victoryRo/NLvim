@@ -11,7 +11,7 @@ require"toggleterm".setup {
     float_opts = {
         -- 'single' | 'double' | 'shadow' | 'curved'
         border = 'curved',
-        width = 140,
+        width = 170,
         height = 20,
         winblend = 0,
     },

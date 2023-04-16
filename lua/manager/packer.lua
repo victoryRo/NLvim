@@ -3,16 +3,19 @@ return require("packer").startup(function(use)
     use "wbthomason/packer.nvim"
 
     -- Theme colors
+    use "mathofprimes/nightvision-nvim"
+    use "JaMo42/alabaster.vim"
+    use "maxmx03/solarized.nvim"
+    use "sainnhe/everforest"
+    use "lvim-tech/lvim-colorscheme"
     use "Mofiqul/vscode.nvim"
     use "shaunsingh/nord.nvim"
     use "mhartington/oceanic-next"
     use "glepnir/zephyr-nvim"
-    use "Th3Whit3Wolf/one-nvim"
-    use "ajmwagar/vim-deus"
     use "Shatur/neovim-ayu"
-    use { 'luisiacc/gruvbox-baby', branch = "main" }
+    use "cpea2506/one_monokai.nvim"
     use { "projekt0n/github-nvim-theme", tag = "v0.0.7" }
-    -- nvim-hybrid list
+    use { 'lalitmee/cobalt2.nvim', requires = 'tjdevries/colorbuddy.nvim' }
 
     -- Colorizer
     use { "norcalli/nvim-colorizer.lua" }
@@ -82,6 +85,10 @@ return require("packer").startup(function(use)
     use { "L3MON4D3/LuaSnip" }
     use { "saadparwaiz1/cmp_luasnip" }
     use { "rafamadriz/friendly-snippets" }
+
+    -- Tabnine autocomplete
+ 	use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
+
 
     -- Mason lsp installer
     use {

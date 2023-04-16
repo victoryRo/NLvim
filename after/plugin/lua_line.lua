@@ -1,8 +1,9 @@
 require('lualine').setup {
   options = {
-    -- theme = 'auto',
-    -- theme = "gruvbox-baby",
-    theme = 'vscode',
+    theme = "auto",
+    -- theme = "cobalt2",
+    -- theme = "vscode",
+    -- theme = "one_monokai",
 
     icons_enabled = true,
     component_separators = { left = '', right = ''},

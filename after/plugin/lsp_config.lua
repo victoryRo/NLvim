@@ -4,7 +4,7 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 -- local on_attach = require("plugins.configs.lspconfig").on_attach
 
 local servers = {
-   "sqls",
+   "sqlls",
     "html",
     "cssls",
     "volar",
