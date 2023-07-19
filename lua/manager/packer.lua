@@ -3,19 +3,16 @@ return require("packer").startup(function(use)
     use "wbthomason/packer.nvim"
 
     -- Theme colors
-    use "mathofprimes/nightvision-nvim"
-    use "JaMo42/alabaster.vim"
+    use "rakr/vim-one"
+    use "luisiacc/gruvbox-baby"
     use "maxmx03/solarized.nvim"
     use "sainnhe/everforest"
-    use "lvim-tech/lvim-colorscheme"
     use "Mofiqul/vscode.nvim"
     use "shaunsingh/nord.nvim"
     use "mhartington/oceanic-next"
     use "glepnir/zephyr-nvim"
     use "Shatur/neovim-ayu"
     use "cpea2506/one_monokai.nvim"
-    use { "projekt0n/github-nvim-theme", tag = "v0.0.7" }
-    use { 'lalitmee/cobalt2.nvim', requires = 'tjdevries/colorbuddy.nvim' }
 
     -- Colorizer
     use { "norcalli/nvim-colorizer.lua" }

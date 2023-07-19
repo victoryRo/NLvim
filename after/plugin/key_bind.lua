@@ -28,6 +28,7 @@ map("n", "so", ":Neotree left<CR>", opt)
 map("n", "sm", ":Neotree close<CR>", opt)
 map("n", "sf", ":Neotree float<CR>", opt)
 map("n", "sg", ":Neotree git_status<CR>", opt)
+map("n", "F", ":Neotree reveal<CR>", opt)
 
 -- Division
 map("n", "av", ":vsplit<CR>", opt)
