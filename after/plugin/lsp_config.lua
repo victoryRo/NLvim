@@ -4,7 +4,7 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 -- local on_attach = require("plugins.configs.lspconfig").on_attach
 
 local servers = {
-   "sqlls",
+    "sqlls",
     "html",
     "cssls",
     "volar",
@@ -14,8 +14,8 @@ local servers = {
     "tsserver",
     "emmet_ls",
     "dockerls",
-    "phpactor",
-    "docker_compose_language_service",
+    "tailwindcss",
+    "docker_compose_language_service"
 }
 
 for _, lsp in ipairs(servers) do

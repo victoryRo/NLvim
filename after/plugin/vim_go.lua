@@ -35,7 +35,7 @@ require('go').setup({
 })
 
  -- disable all linters as that is taken care of by coc.nvim
- vim.g['go_diagnostics_enabled'] = 0
+ vim.g['go_diagnostics_enabled'] = 1
  vim.g['go_metalinter_enabled'] = '[]'
  -- don't jump to errors after metalvnter is invoked
  vim.g['go_jump_to_error'] = 0

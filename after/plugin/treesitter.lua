@@ -38,7 +38,6 @@ require'nvim-treesitter.configs'.setup {
         "vim",
         "lua",
         "css",
-        "php",
         "sql",
         "vue",
         "bash",

@@ -65,22 +65,18 @@ map("n", "nf", ":DiffviewFocusFiles<CR>", opt)
 map("n", "nh", ":DiffviewFileHistory<CR>", opt)
 
 -- LSP
-map("n", "lf", '<cmd>Lspsaga lsp_finder<cr>', opt)
-map("n", "ls", '<cmd>Lspsaga signature_help<cr>', opt)
-map("n", "lt", '<cmd>lua vim.lsp.buf.type_definition()<cr>', opt)
-map("n", "ld", '<cmd>lua vim.lsp.buf.definition()<cr>', opt)
-map("n", "lc", '<cmd>lua vim.lsp.buf.declaration()<cr>', opt)
-map("n", "R", '<cmd>lua vim.lsp.buf.references()<cr>', opt)
-
-map("n", "K", "<cmd>Lspsaga hover_doc<cr>", opt)
 map("n", "lr", "<cmd>Lspsaga rename<cr>", opt)
+map("n", "K", "<cmd>Lspsaga hover_doc<cr>", opt)
+map("n", "lf", '<cmd>Lspsaga lsp_finder<cr>', opt)
 map("n", "la", "<cmd>Lspsaga code_action<cr>", opt)
-map("n", "le", "<cmd>Lspsaga show_line_diagnostics<cr>", opt)
+map("n", "ls", '<cmd>Lspsaga signature_help<cr>', opt)
+map("n", "lo", '<cmd>Lspsaga preview_definition<cr>', opt)
+map("n", "R", '<cmd>lua vim.lsp.buf.references()<cr>', opt)
+map("n", "ld", '<cmd>lua vim.lsp.buf.definition()<cr>', opt)
 map("n", "ln", "<cmd>Lspsaga diagnostic_jump_next<cr>", opt)
 map("n", "lp", "<cmd>Lspsaga diagnostic_jump_prev<cr>", opt)
-map("n", "<C-d>", "<cmd>lua require('lspsaga.action').smart_scroll_with_saga(1, '<c-d>')<cr>", {})
-map("n", "<C-u>", "<cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1, '<c-u>')<cr>", {})
-
+map("n", "le", "<cmd>Lspsaga show_line_diagnostics<cr>", opt)
+map("n", "lt", '<cmd>lua vim.lsp.buf.type_definition()<cr>', opt)
 
 --------------------------------------------------------- VISUAL
 

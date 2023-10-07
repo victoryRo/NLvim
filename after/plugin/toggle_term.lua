@@ -10,9 +10,9 @@ require"toggleterm".setup {
     direction = 'horizontal',
     float_opts = {
         -- 'single' | 'double' | 'shadow' | 'curved'
-        border = 'curved',
-        width = 170,
-        height = 20,
+        border = 'single',
+        width = 180,
+        height = 30,
         winblend = 0,
     },
 }

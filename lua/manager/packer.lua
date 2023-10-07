@@ -6,13 +6,11 @@ return require("packer").startup(function(use)
     use "rakr/vim-one"
     use "luisiacc/gruvbox-baby"
     use "maxmx03/solarized.nvim"
-    use "sainnhe/everforest"
     use "Mofiqul/vscode.nvim"
-    use "shaunsingh/nord.nvim"
     use "mhartington/oceanic-next"
     use "glepnir/zephyr-nvim"
     use "Shatur/neovim-ayu"
-    use "cpea2506/one_monokai.nvim"
+    use "rmehri01/onenord.nvim"
 
     -- Colorizer
     use { "norcalli/nvim-colorizer.lua" }
@@ -38,7 +36,7 @@ return require("packer").startup(function(use)
     -- Neo tree
     use {
         "nvim-neo-tree/neo-tree.nvim",
-        branch = "v2.x",
+        branch = "v3.x",
         requires = {
             "nvim-lua/plenary.nvim",
             "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
@@ -66,7 +64,7 @@ return require("packer").startup(function(use)
 
     -- Telescope
     use {
-        "nvim-telescope/telescope.nvim", tag = "0.1.1",
+        "nvim-telescope/telescope.nvim", tag = "0.1.2",
         requires = { {"nvim-lua/plenary.nvim"} }
     }
 
@@ -102,7 +100,7 @@ return require("packer").startup(function(use)
     -- Lsp kind
     use { "onsails/lspkind.nvim" }
     -- Lsp saga
-    use { "kkharji/lspsaga.nvim" }
+    use { 'kkharji/lspsaga.nvim' }
 
     -- nvim-go
     use {
@@ -133,7 +131,7 @@ return require("packer").startup(function(use)
     -- Git gitsigns
     use { "lewis6991/gitsigns.nvim" }
     -- Neogit
-    use { "TimUntersberger/neogit", requires = "nvim-lua/plenary.nvim" }
+    use { 'NeogitOrg/neogit', requires = 'nvim-lua/plenary.nvim' }
     -- Diff view
     use { "sindrets/diffview.nvim", requires = "nvim-lua/plenary.nvim" }
     -- Web icons

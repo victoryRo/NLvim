@@ -3,7 +3,6 @@ require('nvim-ts-autotag').setup({
         'hbs',
         'jsx',
         'xml',
-        'php',
         'tsx',
         'vue',
         'html',

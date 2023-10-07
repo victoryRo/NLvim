@@ -134,11 +134,6 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
   },
-  everforest = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/everforest",
-    url = "https://github.com/sainnhe/everforest"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -202,17 +197,12 @@ _G.packer_plugins = {
   neogit = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neogit",
-    url = "https://github.com/TimUntersberger/neogit"
+    url = "https://github.com/NeogitOrg/neogit"
   },
   ["neovim-ayu"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neovim-ayu",
     url = "https://github.com/Shatur/neovim-ayu"
-  },
-  ["nord.nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
   },
   ["nui.nvim"] = {
     loaded = true,
@@ -279,10 +269,10 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/oceanic-next",
     url = "https://github.com/mhartington/oceanic-next"
   },
-  ["one_monokai.nvim"] = {
+  ["onenord.nvim"] = {
     loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/one_monokai.nvim",
-    url = "https://github.com/cpea2506/one_monokai.nvim"
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/onenord.nvim",
+    url = "https://github.com/rmehri01/onenord.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
