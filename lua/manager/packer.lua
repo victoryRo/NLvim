@@ -84,7 +84,6 @@ return require("packer").startup(function(use)
     -- Tabnine autocomplete
  	use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
 
-
     -- Mason lsp installer
     use {
         "williamboman/mason.nvim",

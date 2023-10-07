@@ -4,13 +4,13 @@
 
 -- local colorscheme = "one"
 -- local colorscheme = "solarized"
--- local colorscheme = "vscode"
+local colorscheme = "vscode"
 -- local colorscheme = "zephyr"
 -- local colorscheme = "OceanicNext"
 
 -- OneNord
-local colorscheme = "onenord"
-require('onenord').setup()
+-- local colorscheme = "onenord"
+-- require('onenord').setup()
 
 -- gruvbox
 -- local colorscheme = "gruvbox-baby"
