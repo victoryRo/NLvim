@@ -1,12 +1,10 @@
--- local colorscheme = "ayu-dark"
--- local colorscheme = "ayu-light"
--- local colorscheme = "ayu-mirage"
-
+local colorscheme = "humanoid"
+-- local colorscheme = "noir"
 -- local colorscheme = "one"
--- local colorscheme = "solarized"
 -- local colorscheme = "vscode"
-local colorscheme = "zephyr"
--- local colorscheme = "OceanicNext"
+
+-- Nyctophilia
+-- local colorscheme = "umbra"
 
 -- OneNord
 -- local colorscheme = "onenord"

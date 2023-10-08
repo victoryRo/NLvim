@@ -199,10 +199,10 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neogit",
     url = "https://github.com/NeogitOrg/neogit"
   },
-  ["neovim-ayu"] = {
+  ["noir.nvim"] = {
     loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/Shatur/neovim-ayu"
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/noir.nvim",
+    url = "https://github.com/dzfrias/noir.nvim"
   },
   ["nui.nvim"] = {
     loaded = true,
@@ -239,6 +239,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
+  ["nvim-nyctophilia"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-nyctophilia",
+    url = "https://github.com/orfosys/nvim-nyctophilia"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -263,11 +268,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
-  },
-  ["oceanic-next"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/oceanic-next",
-    url = "https://github.com/mhartington/oceanic-next"
   },
   ["onenord.nvim"] = {
     loaded = true,
@@ -294,11 +294,6 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/promise-async",
     url = "https://github.com/kevinhwang91/promise-async"
   },
-  ["solarized.nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/solarized.nvim",
-    url = "https://github.com/maxmx03/solarized.nvim"
-  },
   ["symbols-outline.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
@@ -319,6 +314,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-cursorword",
     url = "https://github.com/itchyny/vim-cursorword"
   },
+  ["vim-humanoid-colorscheme"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-humanoid-colorscheme",
+    url = "https://github.com/humanoid-colors/vim-humanoid-colorscheme"
+  },
   ["vim-one"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-one",
@@ -328,11 +328,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vscode.nvim",
     url = "https://github.com/Mofiqul/vscode.nvim"
-  },
-  ["zephyr-nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/zephyr-nvim",
-    url = "https://github.com/glepnir/zephyr-nvim"
   }
 }
 

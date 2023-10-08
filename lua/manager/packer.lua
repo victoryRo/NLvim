@@ -5,12 +5,12 @@ return require("packer").startup(function(use)
     -- Theme colors
     use "rakr/vim-one"
     use "luisiacc/gruvbox-baby"
-    use "maxmx03/solarized.nvim"
     use "Mofiqul/vscode.nvim"
-    use "mhartington/oceanic-next"
-    use "glepnir/zephyr-nvim"
-    use "Shatur/neovim-ayu"
     use "rmehri01/onenord.nvim"
+
+    use "humanoid-colors/vim-humanoid-colorscheme"
+    use "dzfrias/noir.nvim"
+    use "orfosys/nvim-nyctophilia"
 
     -- Colorizer
     use { "norcalli/nvim-colorizer.lua" }
