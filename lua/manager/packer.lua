@@ -48,7 +48,7 @@ return require("packer").startup(function(use)
     use { "numToStr/Comment.nvim" }
 
     -- Indent line
-    use { "lukas-reineke/indent-blankline.nvim" }
+    use { "shellRaining/hlchunk.nvim" }
 
     -- Better escape
     use { "max397574/better-escape.nvim" }

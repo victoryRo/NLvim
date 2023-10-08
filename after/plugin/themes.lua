@@ -4,8 +4,8 @@
 
 -- local colorscheme = "one"
 -- local colorscheme = "solarized"
-local colorscheme = "vscode"
--- local colorscheme = "zephyr"
+-- local colorscheme = "vscode"
+local colorscheme = "zephyr"
 -- local colorscheme = "OceanicNext"
 
 -- OneNord

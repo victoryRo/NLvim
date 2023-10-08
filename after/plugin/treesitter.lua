@@ -11,6 +11,9 @@ vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(
 )
 
 require'nvim-treesitter.configs'.setup {
+    indent = {
+        enable = true,
+    },
     -- autotag plugin
     autotag = {
         enable = true,
