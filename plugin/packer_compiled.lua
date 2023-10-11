@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/codewindow.nvim",
     url = "https://github.com/gorbit99/codewindow.nvim"
   },
+  ["colorbuddy.vim"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/colorbuddy.vim",
+    url = "https://github.com/tjdevries/colorbuddy.vim"
+  },
   ["diffview.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/diffview.nvim",
@@ -199,11 +204,6 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neogit",
     url = "https://github.com/NeogitOrg/neogit"
   },
-  ["noir.nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/noir.nvim",
-    url = "https://github.com/dzfrias/noir.nvim"
-  },
   ["nui.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nui.nvim",
@@ -239,11 +239,6 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
-  ["nvim-nyctophilia"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-nyctophilia",
-    url = "https://github.com/orfosys/nvim-nyctophilia"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -268,6 +263,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  onebuddy = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/onebuddy",
+    url = "https://github.com/Th3Whit3Wolf/onebuddy"
   },
   ["onenord.nvim"] = {
     loaded = true,
@@ -319,15 +319,15 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-humanoid-colorscheme",
     url = "https://github.com/humanoid-colors/vim-humanoid-colorscheme"
   },
-  ["vim-one"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-one",
-    url = "https://github.com/rakr/vim-one"
-  },
   ["vscode.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vscode.nvim",
     url = "https://github.com/Mofiqul/vscode.nvim"
+  },
+  warlock = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/warlock",
+    url = "https://github.com/hardselius/warlock"
   }
 }
 

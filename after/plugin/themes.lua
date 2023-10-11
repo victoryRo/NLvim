@@ -1,14 +1,12 @@
 local colorscheme = "humanoid"
--- local colorscheme = "noir"
--- local colorscheme = "one"
 -- local colorscheme = "vscode"
-
--- Nyctophilia
--- local colorscheme = "umbra"
+-- local colorscheme = "warlock"
 
 -- OneNord
 -- local colorscheme = "onenord"
 -- require('onenord').setup()
+
+-- require('colorbuddy').colorscheme('onebuddy')
 
 -- gruvbox
 -- local colorscheme = "gruvbox-baby"

@@ -16,9 +16,8 @@ ft.support_filetypes = {
     "*.hpp",
     "*.lua",
     "*.vue",
-    "*.java",
+    "*.yaml",
     "*.css",
-    "*.dart",
 }
 
 ft.exclude_filetypes = {
@@ -101,8 +100,8 @@ require('hlchunk').setup({
 
     line_num = {
         enable = false,
-        use_treesitter = false,
-        style = "#806d9c",
+        use_treesitter = true,
+        style = "#669999",
     },
 
     blank = {
