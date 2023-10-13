@@ -39,6 +39,7 @@ map("n", "al", ":vertical resize +15<CR>", opt)
 map("n", "ar", ":vertical resize -17<CR>", opt)
 
 -- Telescope
+map("n", "fn", ":Telescope notify<CR>", opt)
 map("n", "fb", ":Telescope buffers<CR>", opt)
 map("n", "fl", ":Telescope live_grep<CR>", opt)
 map("n", "ft", ":Telescope help_tags<CR>", opt)

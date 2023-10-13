@@ -119,9 +119,6 @@ return require("packer").startup(function(use)
     -- live server
     use { "manzeloth/live-server" }
 
-    -- notify
-    use { "rcarriga/nvim-notify" }
-
     -- Symbols-outline.nvim
     use { "simrat39/symbols-outline.nvim" }
 
@@ -130,9 +127,6 @@ return require("packer").startup(function(use)
 
     -- Toggle term
     use {"akinsho/toggleterm.nvim", tag = "*" }
-
-    -- Presence
-    use { "andweeb/presence.nvim" }
 
     -- Git gitsigns
     use { "lewis6991/gitsigns.nvim" }
@@ -149,5 +143,12 @@ return require("packer").startup(function(use)
 
     -- Highlight the same word
     use { "itchyny/vim-cursorword" }
+
+    use {
+        "folke/noice.nvim",
+        requires = {
+            "rcarriga/nvim-notify"
+        }
+    }
 
 end)
