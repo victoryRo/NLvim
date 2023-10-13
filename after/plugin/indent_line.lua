@@ -108,8 +108,16 @@ require('hlchunk').setup({
         enable = false,
         chars = {
             "․",
+            -- "⁚",
+            -- "⁖",
+            -- "⁘",
+            -- "⁙",
         },
         style = {
+            "#595959",
+            "#595959",
+            "#595959",
+            "#595959",
             vim.fn.synIDattr(vim.fn.synIDtrans(vim.fn.hlID("Whitespace")), "fg", "gui"),
         },
     },

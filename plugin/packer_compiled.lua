@@ -184,6 +184,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -194,6 +199,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
@@ -203,6 +213,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neogit",
     url = "https://github.com/NeogitOrg/neogit"
+  },
+  neon = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neon",
+    url = "https://github.com/rafamadriz/neon"
   },
   ["nui.nvim"] = {
     loaded = true,
@@ -294,6 +309,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/promise-async",
     url = "https://github.com/kevinhwang91/promise-async"
   },
+  ["statuscol.nvim"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/statuscol.nvim",
+    url = "https://github.com/luukvbaal/statuscol.nvim"
+  },
   ["symbols-outline.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
@@ -328,6 +348,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/warlock",
     url = "https://github.com/hardselius/warlock"
+  },
+  ["zenbones.nvim"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/zenbones.nvim",
+    url = "https://github.com/mcchrish/zenbones.nvim"
   }
 }
 

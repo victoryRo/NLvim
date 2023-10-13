@@ -32,7 +32,7 @@ opt.number = true                -- bool: Show line numbers
 opt.relativenumber = true        -- bool: Show relative line numbers
 opt.scrolloff = 4                -- int:  Min num lines of context
 opt.signcolumn = "yes"           -- str:  Show the sign column
-opt.numberwidth = 2
+opt.numberwidth = 4
 opt.ruler = false
 
 -- [[ Filetypes ]]

@@ -1,7 +1,7 @@
 require('lualine').setup {
     options = {
         theme = "auto",
-        -- theme = 'srcery',
+        -- theme = 'neon',
         -- theme = "onenord",
         -- theme = "vscode",
         -- theme = "one_monokai",

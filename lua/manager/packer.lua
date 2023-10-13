@@ -3,6 +3,12 @@ return require("packer").startup(function(use)
     use "wbthomason/packer.nvim"
 
     -- Theme colors
+    use "rafamadriz/neon"
+    use "savq/melange-nvim"
+    use {
+    "mcchrish/zenbones.nvim",
+    requires = "rktjmp/lush.nvim"
+    }
     use "hardselius/warlock"
     use "luisiacc/gruvbox-baby"
     use "Mofiqul/vscode.nvim"
@@ -137,8 +143,9 @@ return require("packer").startup(function(use)
     -- Web icons
     use { "nvim-tree/nvim-web-devicons" }
 
-    -- UFO fold
+    -- UFO fold - Statuscol work with ufo
     use { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async"}
+    use "luukvbaal/statuscol.nvim"
 
     -- Highlight the same word
     use { "itchyny/vim-cursorword" }

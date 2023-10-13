@@ -1,5 +1,5 @@
 -- Set up lspconfig.
-local lspconfig = require "lspconfig"
+-- local lspconfig = require "lspconfig"
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 -- local on_attach = require("plugins.configs.lspconfig").on_attach
 
@@ -18,11 +18,16 @@ local servers = {
     "docker_compose_language_service"
 }
 
+-- Code from ufo plugin
+capabilities.textDocument.foldingRange = {
+    dynamicRegistration = false,
+    lineFoldingOnly = true
+}
+
 for _, lsp in ipairs(servers) do
-    lspconfig[lsp].setup {
-        -- on_attach = on_attach,
-        capabilities = capabilities,
-    }
+    require('lspconfig')[lsp].setup({
+        capabilities = capabilities
+    })
 end
 
 require("lspconfig").lua_ls.setup {

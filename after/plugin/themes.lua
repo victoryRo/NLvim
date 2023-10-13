@@ -1,6 +1,17 @@
-local colorscheme = "humanoid"
+-- local colorscheme = "humanoid"
 -- local colorscheme = "vscode"
 -- local colorscheme = "warlock"
+-- local colorscheme = "melange"
+
+-- Zenbones
+local colorscheme = "forestbones" -- verde
+-- local colorscheme = "zenburned" -- medio
+-- local colorscheme = "seoulbones" -- suave
+
+-- Neon
+-- local colorscheme = "neon"
+-- vim.g.neon_style = "doom"
+-- vim.g.neon_bold = true
 
 -- OneNord
 -- local colorscheme = "onenord"

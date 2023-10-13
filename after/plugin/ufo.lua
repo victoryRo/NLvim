@@ -1,9 +1,20 @@
--- configuration options
-vim.o.foldcolumn = "0" -- '0' is not bad
-vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+-- Statuscol work with ufo
+local builtin = require("statuscol.builtin")
+require("statuscol").setup({
+    relculright = true,
+    segments = {
+        {text = {builtin.foldfunc}, click = "v:lua.ScFa"},
+        {text = {"%s"}, click = "v:lua.ScSa"},
+        {text = {builtin.lnumfunc, " "}, click = "v:lua.ScLa"}
+    }
+})
+
+-- Ufo config
+vim.o.foldcolumn = "1"
+vim.o.foldlevel = 99
 vim.o.foldlevelstart = 99
 vim.o.foldenable = true
--- vim.o.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
+vim.o.fillchars = [[eob: ,fold: ,foldopen:▿,foldsep: ,foldclose:▹]]
 
 local handler = function(virtText, lnum, endLnum, width, truncate)
     local newVirtText = {}
@@ -54,6 +65,7 @@ require('ufo').setup({
 
 vim.keymap.set('n', '<leader>o', require('ufo').openAllFolds)
 vim.keymap.set('n', '<leader>c', require('ufo').closeAllFolds)
+vim.keymap.set('n', '<leader>p', require('ufo').openFoldsExceptKinds)
 vim.keymap.set('n', '<leader>u', function()
     local winid = require('ufo').peekFoldedLinesUnderCursor()
     if not winid then
