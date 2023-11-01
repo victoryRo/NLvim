@@ -88,7 +88,7 @@ require('hlchunk').setup({
     },
 
     indent = {
-        enable = true,
+        enable = false,
         use_treesitter = true,
         chars = {
             "│",

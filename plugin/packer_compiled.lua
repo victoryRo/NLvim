@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
   },
+  everforest = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -148,11 +153,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
-  ["gruvbox-baby"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
-    url = "https://github.com/luisiacc/gruvbox-baby"
   },
   ["hlchunk.nvim"] = {
     loaded = true,
@@ -184,11 +184,6 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -198,11 +193,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["melange-nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/melange-nvim",
-    url = "https://github.com/savq/melange-nvim"
   },
   ["neo-tree.nvim"] = {
     loaded = true,
@@ -214,15 +204,15 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neogit",
     url = "https://github.com/NeogitOrg/neogit"
   },
-  neon = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/neon",
-    url = "https://github.com/rafamadriz/neon"
-  },
   ["noice.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/noice.nvim",
     url = "https://github.com/folke/noice.nvim"
+  },
+  ["nordic.nvim"] = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/nordic.nvim",
+    url = "https://github.com/AlexvZyl/nordic.nvim"
   },
   ["nui.nvim"] = {
     loaded = true,
@@ -289,10 +279,10 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/onebuddy",
     url = "https://github.com/Th3Whit3Wolf/onebuddy"
   },
-  ["onenord.nvim"] = {
+  ["onedark.vim"] = {
     loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/onenord.nvim",
-    url = "https://github.com/rmehri01/onenord.nvim"
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -308,6 +298,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/promise-async",
     url = "https://github.com/kevinhwang91/promise-async"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
   },
   ["statuscol.nvim"] = {
     loaded = true,
@@ -334,11 +329,6 @@ _G.packer_plugins = {
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-cursorword",
     url = "https://github.com/itchyny/vim-cursorword"
   },
-  ["vim-humanoid-colorscheme"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vim-humanoid-colorscheme",
-    url = "https://github.com/humanoid-colors/vim-humanoid-colorscheme"
-  },
   ["vscode.nvim"] = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/vscode.nvim",
@@ -348,11 +338,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/warlock",
     url = "https://github.com/hardselius/warlock"
-  },
-  ["zenbones.nvim"] = {
-    loaded = true,
-    path = "/Users/yosoy/.local/share/nvim/site/pack/packer/start/zenbones.nvim",
-    url = "https://github.com/mcchrish/zenbones.nvim"
   }
 }
 

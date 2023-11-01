@@ -1,10 +1,7 @@
 require('lualine').setup {
     options = {
         theme = "auto",
-        -- theme = 'neon',
-        -- theme = "onenord",
         -- theme = "vscode",
-        -- theme = "one_monokai",
         -- theme = "gruvbox-baby",
 
         icons_enabled = true,

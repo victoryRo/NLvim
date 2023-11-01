@@ -1,23 +1,9 @@
--- local colorscheme = "humanoid"
+-- local colorscheme = "nordic"
 -- local colorscheme = "vscode"
+local colorscheme = "sonokai"
+-- local colorscheme = "onedark"
 -- local colorscheme = "warlock"
--- local colorscheme = "melange"
-
--- Zenbones
-local colorscheme = "forestbones" -- verde
--- local colorscheme = "zenburned" -- medio
--- local colorscheme = "seoulbones" -- suave
-
--- Neon
--- local colorscheme = "neon"
--- vim.g.neon_style = "doom"
--- vim.g.neon_bold = true
-
--- OneNord
--- local colorscheme = "onenord"
--- require('onenord').setup()
-
--- require('colorbuddy').colorscheme('onebuddy')
+-- local colorscheme = "everforest"
 
 -- gruvbox
 -- local colorscheme = "gruvbox-baby"

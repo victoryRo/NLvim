@@ -3,21 +3,16 @@ return require("packer").startup(function(use)
     use "wbthomason/packer.nvim"
 
     -- Theme colors
-    use "rafamadriz/neon"
-    use "savq/melange-nvim"
-    use {
-    "mcchrish/zenbones.nvim",
-    requires = "rktjmp/lush.nvim"
-    }
     use "hardselius/warlock"
-    use "luisiacc/gruvbox-baby"
     use "Mofiqul/vscode.nvim"
-    use "rmehri01/onenord.nvim"
+    use "sainnhe/everforest"
+    use "sainnhe/sonokai"
+    use "joshdick/onedark.vim"
+    use "AlexvZyl/nordic.nvim"
     use {
         "Th3Whit3Wolf/onebuddy",
         requires = "tjdevries/colorbuddy.vim",
     }
-    use "humanoid-colors/vim-humanoid-colorscheme"
 
     -- Colorizer
     use { "norcalli/nvim-colorizer.lua" }
